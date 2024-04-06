@@ -1,1 +1,1 @@
-var sample = "test"
+var sample = 'test';
