@@ -1,0 +1,43 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+    "ignorePatterns": [ "*.test.js", "*.test.tsx" ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "extends": [
+      "prettier"
+    ],
+    "plugins": [
+      "react",
+      "react-hooks",
+      "prettier",
+      "import"
+    ],
+  
+    "rules": {
+      "react/jsx-no-bind": ["error", {
+        "allowArrowFunctions": true,
+        "allowBind": false,
+        "ignoreRefs": true
+      }],
+      "react/jsx-filename-extension": [ 1, { "extensions": [".js", ".jsx"] }],
+      "react/no-did-update-set-state": "error",
+      "react/no-unknown-property": "error",
+      "react/no-unused-prop-types": "error",
+      "react/prop-types": "error",
+      "react/react-in-jsx-scope": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "no-duplicate-imports": "error",
+      "no-unused-vars": "off",
+      "import/no-unresolved": "error"
+    }
+  }
