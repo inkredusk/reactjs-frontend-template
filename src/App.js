@@ -2,6 +2,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+/**
+ * Function component for the main App.
+ *
+ * @return {JSX.Element} The rendered main App component.
+ */
 function App() {
 	return (
 		<div className="App">
@@ -23,4 +28,5 @@ function App() {
 	);
 }
 
+ˆ
 export default App;
