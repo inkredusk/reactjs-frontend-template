@@ -28,5 +28,4 @@ function App() {
 	);
 }
 
-ˆ
 export default App;
